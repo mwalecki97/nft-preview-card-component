@@ -1,3 +1,5 @@
+MY SOLUTION: nft-preview-card-component-xi-green.vercel.app
+
 # Frontend Mentor - NFT preview card component
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)

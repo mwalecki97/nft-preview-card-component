@@ -1,0 +1,130 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    position: relative;
+    font-family: 'Outfit';
+    font-weight: 300;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    width: 302px;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -302px;
+    margin-left: -170px;
+}  
+
+h1 {
+    color:white;
+    font-size: 19px;
+    margin-bottom: 17px;
+    font-weight: 600;
+}
+
+#para {
+    color:#809ab9;
+    margin-bottom: 17px;
+    word-spacing: -.1ch;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+#cube {
+    display: block;
+    width: 302px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+#eth_text {
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+    font-weight: 600;
+    word-spacing: -.3ch;
+    display: inline-block;
+    margin-left: 3px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 3px;
+}
+
+#clock_text {
+    color: hsl(215, 51%, 70%);
+    display: inline-block;
+    margin-top: 10px;
+    position: relative;
+    bottom: 4.5px;
+}
+
+#ic_clock {
+    margin-left: 120px;
+    margin-bottom: 2px;
+}
+
+footer {
+    display: flex;
+}
+
+hr.solid {
+    border:  1px solid #2e4158;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+#creator{
+    display: flex;
+}
+
+#avatar{
+    margin-top: 5px;
+    margin-left: 3px;
+    width: 32px;
+    height: 32px;
+    border: solid 1px white;
+    border-radius: 100%;
+}
+ 
+#cr_text {
+    margin-left: 14px;
+    position: relative;
+    bottom: 2px;
+    color: #809ab9;
+    font-weight: 300;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.overlay{
+    position: fixed;
+    transition: all 0.3 ease;
+    opacity: 0;
+    background-color: hsl(178, 100%, 50%, 0.5);
+    width: 302px;
+    height: 302px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.view {
+    margin-top: 40%;
+}
+
+.img_cont:hover .overlay{
+    opacity: 1;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
